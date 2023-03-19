@@ -93,3 +93,17 @@ a {
 .sri-text {
     text-align: center;
 }
+
+.sri-img .img {
+    width: 150px;
+    height: 150px;
+}
+
+.sri-img {
+    display: flex;
+}
+
+.sri-img ul img {
+    width: 240px;
+    height: 280px;
+}

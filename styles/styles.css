@@ -26,13 +26,11 @@ a {
 .mid-logo {
     display: flex;
     flex: 1;
-    justify-content: center;
+    border: 4px solid yellow;
 }
 
-.left {
-    border: 4px solid blue;
-    flex: 1;
-    display: flex;
+img {
+    padding-left: 250px;
 }
 
 .right {
@@ -43,14 +41,5 @@ a {
 }
 
 .right ul {
-    padding: 0px 1px 0px 0px;
-}
-
-.left ul {
-    padding-left: 10px;
-}
-
-.mid-logo {
-    border: 4px solid yellow;
-    flex: 1;
+    padding: 0px 10px 0px 0px;
 }

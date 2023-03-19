@@ -15,22 +15,39 @@ body {
 ul {
     list-style: none;
     display: flex;
+    padding: 0px    ;
 }
 
 a {
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+
+.mid-logo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .left {
     border: 4px solid blue;
     flex: 1;
+    display: flex;
 }
 
 .right {
     border: 4px solid green;
     flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.right ul {
+    padding: 0px 1px 0px 0px;
+}
+
+.left ul {
+    padding-left: 10px;
 }
 
 .mid-logo {

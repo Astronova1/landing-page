@@ -12,7 +12,6 @@ body {
     background-color: white;
     box-shadow: 0px 0px 10px rgb(179, 171, 171);
     align-items: center;
-    border: 4px solid brown;
     background-color: #1F2937;
 }
 
@@ -35,7 +34,6 @@ a {
 .mid-logo {
     display: flex;
     flex: 1;
-    border: 4px solid yellow;
 }
 
 .mid-logo img {
@@ -44,7 +42,6 @@ a {
 }
 
 .right {
-    border: 4px solid green;
     flex: 1;
     display: flex;
     justify-content: end;

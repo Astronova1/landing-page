@@ -113,12 +113,14 @@ li .text {
     max-width: 240px;
     text-align: center;
     margin-right: 0px;
+    margin-bottom: 80px;
 }
 
 .quote-sec {
     margin-top: 100px;
     padding: 150px;
     background-color: #E5E7EB;
+    margin: 0px;
 }
 
 .quote-text {
@@ -133,4 +135,33 @@ li .text {
     margin: 40px 250px 0px 960px;
     font-size: 22px;
     font-weight: bold;
+}
+
+.signup-end-outside {
+    border: 4px solid blue;
+    padding: 110px; 
+}
+
+.signup-end-text {
+    flex: 1 0 0;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(108, 108, 230);
+    border-radius: 20px;
+}
+
+.signup-end-text .txt,p {
+    color: white;
+    margin-left: 40px;
+}
+
+.signup-end-text p {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.signup-end-text .txt {
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 20px;
 }

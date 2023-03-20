@@ -101,9 +101,16 @@ a {
 
 .sri-img {
     display: flex;
+    justify-content: center;
 }
 
 .sri-img ul img {
     width: 240px;
     height: 280px;
+}
+
+li .text {
+    max-width: 240px;
+    text-align: center;
+    margin-right: 0px;
 }
